@@ -2,6 +2,10 @@
 target/
 Cargo.lock
 
+# Npm
+node_modules/
+package-lock.json
+
 # Generated files
 *.rs.bk
 

@@ -1,0 +1,27 @@
+{
+  "name": "minigrep",
+  "version": "1.0.0",
+  "description": "A rust app that does some functionality similar to the grep tool.",
+  //"main": "index.js",
+  "scripts": {
+    "test": "cargo test"
+    // Add more scripts as needed
+  },
+  "keywords": ["rust"],
+  "author": "V M Rishikesh",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.rs": ["cargo test"]
+    // Add more entries for additional checks (linters, formatters, etc.)
+  },
+
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0"
+  }
+}

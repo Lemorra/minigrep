@@ -1,1 +1,12 @@
-/target
+# Rust
+target/
+Cargo.lock
+
+# Generated files
+*.rs.bk
+
+# User-specific files
+Cargo.toml.orig
+Cargo.lock.orig
+Cargo.toml.orig.orig
+Cargo.lock.orig.orig
